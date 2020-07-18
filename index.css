@@ -1,0 +1,97 @@
+.container {
+    max-width: 390px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #6A7187;
+}
+
+.msg {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: #80879B;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.flex-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.user-input {
+    height: 60px;
+    border: 1.5px solid #D0DDE5;
+    text-indent: 16px;
+    font-size: 18px;
+}
+
+.user-input::placeholder {
+    font-size: 18px;
+    color: #A6A9B4;
+}
+
+.user-input-label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #80879B;
+}
+
+.passwd-contingency {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember label{
+    color: #6A7187;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+}
+
+.login {
+    margin-top: 40px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    background: #4A90E2;
+    color: white;
+    border: none;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+.signup {
+    text-decoration: none;
+    text-align: center;
+    color: #4A90E2;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+}
+
+.forgot {
+    color: #4A90E2;
+    text-decoration: none;
+}
