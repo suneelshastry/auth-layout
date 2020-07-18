@@ -1,7 +1,22 @@
+@font-face {
+    font-family: 'lato';
+    src: url('lato/Lato-Black.ttf'),
+    url('lato/Lato-BlackItalic.ttf'),
+    url('lato/Lato-Bold.ttf'),
+    url('lato/Lato-BoldItalic.ttf'),
+    url('lato/Lato-Italic.ttf'),
+    url('lato/Lato-Light.ttf'),
+    url('lato/Lato-LightItalic.ttf'),
+    url('lato/Lato-Regular.ttf'),
+    url('lato/Lato-Thin.ttf'),
+    url('lato/Lato-ThinItalic.ttf')
+}
+
+
 .container {
     max-width: 390px;
     margin: 0 auto;
-    font-family: sans-serif;
+    font-family: lato-regular;
 }
 
 .title {
@@ -9,6 +24,7 @@
     font-weight: 600;
     margin-bottom: 20px;
     color: #6A7187;
+    font-family: lato-bold;
 }
 
 .msg {
@@ -38,13 +54,14 @@
 .user-input::placeholder {
     font-size: 18px;
     color: #A6A9B4;
+    font-family: lato-regular;
 }
 
 .user-input-label {
     font-size: 16px;
     margin-bottom: 10px;
-    font-weight: 500;
     color: #80879B;
+    font-family: lato-bold;
 }
 
 .passwd-contingency {
